@@ -1,9 +1,5 @@
 # Team-Profile-Generator
 
-
-## Description
-
-
 ## User Story
 - AS A manager
 - I WANT to generate a webpage that displays my team's basic info
@@ -27,3 +23,30 @@
 - THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
 - WHEN I decide to finish building my team
 - THEN I exit the application, and the HTML is generated
+
+## Link to code:
+httpy://github/jamesbelk0/Team-Profile-Generator
+
+## Link to screenshot/media:
+- ![Image of jest test passing](./dist/assets/test-pass.png)
+- A link to the video can be found here [Youtube](https://youtu.be/vpA5GBX1YfA)
+
+## Description
+1. Using inquirer, fs, jest and various tests generate a team builder profile page with various bits of information. Including a manager, engineer and intern role.
+
+## Installation
+- npm init
+- npm install inquirer
+- npm jest
+
+## Usage
+Run 'node index' to start the question prompt
+
+## Contributor
+- James Belk
+- Tutor Luis (helped with structure and finalizing working code)
+
+## Questions
+If there are any issues or questions, please contact at:
+- <jamesbelk0@gmail.com>
+- [GitHub](https://github.com/jamesbelk0)

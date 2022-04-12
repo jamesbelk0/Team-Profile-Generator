@@ -1,5 +1,5 @@
 // Primary Container for Cards
-const cardCase = (cards) => `
+const profileCase = (cards) => `
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -8,14 +8,20 @@ const cardCase = (cards) => `
         <title>Team Profiles</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></link>
     </head>
-    <body>
-        <header>
-            <h1>
+
+    <!-- Body -->
+    <body class ="pb-5">
+
+    <!-- Header -->
+        <header class="bg-info py-3 mb-5" >
+            <h1 class="text-center text-white">
                 Team Profile
             </h1>
         </header>
+        
+        <!-- Team Member Cards -->
         <main>
-            <div class="Container">
+            <div class="container">
                 <div class="row d-flex justify-content-center align-items-center">
                     ${cards}
                 </div>
@@ -25,4 +31,4 @@ const cardCase = (cards) => `
 </html>
 `;
 
-module.exports = cardCase;
+module.exports = profileCase;
